@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{ background-color:hsl(212, 45%, 89%); font-family:'Outfit', sans-serif;}
+    #container { display: flex; justify-content: center; align-items: center; height: 100vh;}
+    #inner-container { background-color: white; border-radius: 15px; text-align: center; height: 390px; width: 250px;   box-shadow: 0 4px 20px 8px rgba(0, 0, 0, 0.07), 0 6px 20px 0 rgba(0, 0, 0, 0.06);}
+    #image {background-color:hsl(210, 72%, 48%);  margin: 10px; border-radius: 10px;}
+    #image img{ width: 100%; border-radius: 15px;}
+    #content { margin: 20px;}
+    .heading { font-weight: 700; font-size: 17px; margin-bottom: 10px;}
+    .para { font-weight: 400; font-size:12px; opacity: 60%;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(210, 92%, 60%); }
+  </style>  
+</head>
+<body>
+  <div id="container">
+    <div id="inner-container">
+      <div id="image"><img src="images/image-qr-code.png" alt="qr-code"></div>
+      <div id="content">
+        <p class="heading"><b>Improve your front-end skills by building projects</b></p>
+        <p class="para">Scan the QR code to visit frontend Mentor and take your coding skills to the next level.</p>
+      </div> 
+    </div>
+    
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">iamfaham</a>.
+  </div> -->
+</body>
+</html>
